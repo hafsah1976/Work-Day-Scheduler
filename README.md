@@ -26,6 +26,8 @@ The URL will mostly work in all the browsers. Preferred Browser is Google Chrome
 
 Users can schedule by clicking on input placeholder and then clicking the Save button.
 
+[Deployment URL](https://hafsah1976.github.io/Work-Day-Scheduler/)
+
 ![Overall-Screenshot](images/working-schedule.png)
 
 ## Credits
