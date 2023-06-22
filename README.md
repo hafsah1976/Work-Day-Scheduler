@@ -66,7 +66,7 @@ SOFTWARE.
 
 ![Testing-Input](images/checking-input.png)
 
-A second example:
+A second example:- Blue dots indicate the text added is saved in the local storage.
 
 ![AnotherTestCase](images/another-test-case.png)
 
