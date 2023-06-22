@@ -66,6 +66,10 @@ SOFTWARE.
 
 ![Testing-Input](images/checking-input.png)
 
+A second example:
+
+![AnotherTestCase](images/another-test-case.png)
+
 2; Viewing Value Stored in Local Storage - the blue circles indicate the value that was entered got stored.
 
 ![CheckingLocalStorage](images/checking-input.png)
@@ -73,3 +77,7 @@ SOFTWARE.
 3; Checking Interactive Save Button
 
 ![UserInteraction](images/save-hover.png)
+
+4; Check Deployment
+
+![Deployment](images/checking-deployment.png)
