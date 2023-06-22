@@ -7,7 +7,8 @@
     --lightblue: #06aed5;
     --white: #ffffff;
     --lightGray: #d3d3d3;
-    --black: #000000;}
+    --black: #000000;
+   }
 
   * {
     padding: 0px; 
@@ -27,6 +28,8 @@ body {
     border-left: 1px solid var(--black);
     border-bottom: 1px solid var(--white);
     margin: 0em;
+    border-top-right-radius:15px;
+    border-bottom-right-radius: 15px;
     /* padding: 5px;
     height: 75px;
     width: 90%;
@@ -38,7 +41,7 @@ body {
  }
   /* A jumbotron indicates a big box for calling extra attention to some information. https://getbootstrap.com/docs/4.0/components/jumbotron/ */
   .jumbotron {
-    background-color: transparent;
+    background-color:var(--lightred);
     border-radius: 0;
     border-bottom: 10px solid var(--black);
     color: var(--black);
@@ -62,15 +65,22 @@ body {
   .row {
     border-top: 1px solid var(--white);
     white-space: pre-wrap;
-    height:80px ; }
+    height:80px ;
+ }
   
   .hour {
+
     background-color: var(--lightblue);
     color:var(--black);
     border-top: 1px dashed var(--black);
     border-right: 1px solid var(--black);
     margin:0px;
+    border-top-left-radius:15px;
+    border-bottom-left-radius: 15px;
+    text-align: center;
+    vertical-align: middle;
   }
+
   
     .past {
     background-color:var(--lightGray);
@@ -88,6 +98,7 @@ body {
   }
   
   .saveBtn {
+   
     text-align: center;
     cursor:pointer;
     margin-bottom: 0px;
@@ -96,7 +107,7 @@ body {
     border-left: 1px solid var(--black);
     border-top-right-radius:15px;
     border-bottom-right-radius: 15px;
-    background-color: var(--lightred);
+    background-color: var(--lightblue);
     color: var(--white);
    
    

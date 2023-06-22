@@ -28,14 +28,16 @@ for (i = 0; i < businessHours.length; i++) {
 
 // Creating columns, label hour, class hour blocks and schedule block and appending all columns to rows
 for (i = 0; i < businessHours.length; i++) {
-  let inputColumn = $(`<input type='text' data-hour='${displayFormat[i]}' class='textarea row ${displayFormat[i]}' size='90'placeholder=''/>`);
+  let inputColumn = $(`<input name='events' type='text' data-hour='${displayFormat[i]}' class='textarea row ${displayFormat[i]}' size='90'placeholder=''/>`);
   $(".float-none").append(inputColumn);
 
   if (displayFormat[i] == currentHour) {
-      $(inputColumn).css('background', '#ccffee');
+      $(inputColumn).css('background', '#ff6961');//present
   } else if (displayFormat[i] > currentHour) {
-      $(inputColumn).css('background', '#42f55a');
-  }
+      $(inputColumn).css('background', '#77dd77');//future
+
+  }else
+  $(inputColumn).css('background', '#d3d3d3');//past
 }
 
 //getting Data in the local storage to check with ChromeDevTools
@@ -80,6 +82,7 @@ $(".textarea.row.23").val( userInput23)
 for (i = 0; i < businessHours.length; i++) {
   let saveBtnElement = $("<button class='saveBtn saveBtn:hover'/>");
   saveBtnElement.text("Save");
+  // saveBtnElement.i('images/save_icon.png');
   $(".float-right").append(saveBtnElement);
 
 };

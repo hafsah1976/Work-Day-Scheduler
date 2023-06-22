@@ -26,8 +26,6 @@ The URL will mostly work in all the browsers. Preferred Browser is Google Chrome
 
 Users can schedule by clicking on input placeholder and then clicking the Save button.
 
-[Deployment URL](https://hafsah1976.github.io/Work-Day-Scheduler/)
-
 ![Overall-Screenshot](images/working-schedule.png)
 
 ## Credits
@@ -68,6 +66,10 @@ SOFTWARE.
 
 ![Testing-Input](images/checking-input.png)
 
+A second example:
+
+![AnotherTestCase](images/another-test-case.png)
+
 2; Viewing Value Stored in Local Storage - the blue circles indicate the value that was entered got stored.
 
 ![CheckingLocalStorage](images/checking-input.png)
@@ -75,3 +77,7 @@ SOFTWARE.
 3; Checking Interactive Save Button
 
 ![UserInteraction](images/save-hover.png)
+
+4; Check Deployment
+
+![Deployment](images/checking-deployment.png)
