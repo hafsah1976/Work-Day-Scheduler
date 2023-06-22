@@ -22,9 +22,9 @@ The URL will mostly work in all the browsers. Preferred Browser is Google Chrome
 
 [Work-Day-Scheduler](https://github.com/hafsah1976/Work-Day-Scheduler)
 
-## Usage 
+## Usage
 
-Users can schedule by clicking on input placeholder and then clicking the Save button. 
+Users can schedule by clicking on input placeholder and then clicking the Save button.
 
 ![Overall-Screenshot](images/working-schedule.png)
 
